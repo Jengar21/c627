@@ -11,17 +11,21 @@
 
 This project aims to predict healthcare outcomes using machine learning. We utilized a publicly available dataset and implemented Naive Bayes and Decision Tree models to classify and predict outcomes. The project follows the steps outlined in the CS627 Term Project Description.
 
+## Link to Full Project Report
+
+* [CS627 Term Project Description](https://docs.google.com/document/d/1FNJsrxCRkVKYdUblwxTYGg2edbPFr4x9lukplNkRwG8/edit?usp=sharing)
+
 ## Dataset
 
 * **Name:** Breast Cancer Wisconsin (Diagnostic) Dataset
 * **Source:** [Breast Cancer Wisconsin](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data) 
 * **Description:**
-    * Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. [cite: 15, 4]
-    * They describe characteristics of the cell nuclei present in the image. [cite: 15, 4]
+    * Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass.
+    * They describe characteristics of the cell nuclei present in the image.
     * Ten real-valued features are computed for each cell nucleus: radius, texture, perimeter, area, smoothness, compactness, concavity, concave points, symmetry, and fractal dimension. [cite: 15, 4]
-    * For each image, the mean, standard error, and "worst" (largest mean of the three largest values) of these features were computed, resulting in 30 features. [cite: 15, 4]
-    * Outcome: diagnosis (M = malignant, B = benign) [cite: 15, 4]
-    * Class distribution: 357 benign, 212 malignant [cite: 15, 4]
+    * For each image, the mean, standard error, and "worst" (largest mean of the three largest values) of these features were computed, resulting in 30 features.
+    * Outcome: diagnosis (M = malignant, B = benign) 
+    * Class distribution: 357 benign, 212 malignant 
 
 
 ## Code Sections
@@ -74,12 +78,6 @@ This project aims to predict healthcare outcomes using machine learning. We util
 * Compares the performance of the Naive Bayes and Decision Tree models.
     * Compares accuracy, precision, recall, and F1-score.
     * States which model performed better and provides a brief explanation.
-
-
-
-## Link to Project Description
-
-* [CS627 Term Project Description](https://docs.google.com/document/d/1FNJsrxCRkVKYdUblwxTYGg2edbPFr4x9lukplNkRwG8/edit?usp=sharing)
 
 ## Notes
 
