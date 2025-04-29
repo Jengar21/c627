@@ -3,9 +3,9 @@
 # Healthcare Outcome Prediction
 
 ## Team Members
-Lauren DeMaio
-Rohit Kumaratchi
-Jennifer Garcia
+- Lauren DeMaio
+- Rohit Kumaratchi
+- Jennifer Garcia
 
 ## Project Description
 
