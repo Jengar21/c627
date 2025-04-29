@@ -3,11 +3,9 @@
 # Healthcare Outcome Prediction
 
 ## Team Members
-
-* \[Team Member 1 Name]: \[Specific Contributions, e.g., Data Loading, Naive Bayes Model]
-* \[Team Member 2 Name]: \[Specific Contributions, e.g., Data Visualization, Decision Tree Model]
-* \[Team Member 3 Name]: \[Specific Contributions, e.g., Data Preprocessing, Report Writing]
-* \[Team Member 4 Name]: \[Specific Contributions, e.g., Model Evaluation, Code Optimization]
+Lauren DeMaio
+Rohit Kumaratchi
+Jennifer Garcia
 
 ## Project Description
 
@@ -15,18 +13,25 @@ This project aims to predict healthcare outcomes using machine learning. We util
 
 ## Dataset
 
-* **Name:** \[Name of the dataset, e.g., Breast Cancer Wisconsin (Diagnostic) Dataset]
-* **Source:** \[Link to the dataset source, e.g., [https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)]
-* **Description:** \[Briefly describe the dataset, its context, and what it contains. E.g., "This dataset contains features of breast masses and a diagnosis of malignant or benign."]
+* **Name:** Breast Cancer Wisconsin (Diagnostic) Dataset
+* **Source:** [Breast Cancer Wisconsin](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data) 
+* **Description:**
+    * Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. [cite: 15, 4]
+    * They describe characteristics of the cell nuclei present in the image. [cite: 15, 4]
+    * Ten real-valued features are computed for each cell nucleus: radius, texture, perimeter, area, smoothness, compactness, concavity, concave points, symmetry, and fractal dimension. [cite: 15, 4]
+    * For each image, the mean, standard error, and "worst" (largest mean of the three largest values) of these features were computed, resulting in 30 features. [cite: 15, 4]
+    * Outcome: diagnosis (M = malignant, B = benign) [cite: 15, 4]
+    * Class distribution: 357 benign, 212 malignant [cite: 15, 4]
+
 
 ## Code Sections
 
-### 1. Imports
+### Imports
 
 * This section includes all necessary Python libraries for data manipulation, visualization, model building, and evaluation.
     * Libraries used: `numpy`, `pandas`, `seaborn`, `matplotlib.pyplot`, `sklearn` (and submodules).
 
-### 2. Data Loading and Exploration
+### Data Loading and Exploration
 
 * Loads the dataset from a CSV file.
 * Performs initial data exploration, including:
@@ -34,7 +39,7 @@ This project aims to predict healthcare outcomes using machine learning. We util
     * Printing column names.
     * Visualizing the distribution of the target variable.
 
-### 3. Data Visualization
+### Data Visualization
 
 * Generates visualizations to understand the dataset.
     * Includes:
@@ -43,7 +48,7 @@ This project aims to predict healthcare outcomes using machine learning. We util
         * Scatter plot to show the relationship between two features.
         * Box plot to compare feature distributions.
 
-### 4. Data Preparation
+### Data Preparation
 
 * Prepares the data for machine learning models.
     * Steps:
@@ -52,7 +57,7 @@ This project aims to predict healthcare outcomes using machine learning. We util
         * Normalizes numerical features using `StandardScaler`.
         * Splits the data into training and testing sets.
 
-### 5. Model Building and Evaluation
+### Model Building and Evaluation
 
 * Implements and evaluates the following machine learning models:
     * Naive Bayes (Gaussian Naive Bayes)
@@ -64,23 +69,19 @@ This project aims to predict healthcare outcomes using machine learning. We util
     * Generates and displays a confusion matrix.
     * Provides a detailed classification report with per-class metrics.
 
-### 6. Model Comparison
+### Model Comparison
 
 * Compares the performance of the Naive Bayes and Decision Tree models.
     * Compares accuracy, precision, recall, and F1-score.
     * States which model performed better and provides a brief explanation.
 
-### 7. Conclusion
 
-* Summarizes the project's purpose, key findings, and limitations.
-* Suggests potential future work.
 
 ## Link to Project Description
 
-* [CS627 Term Project Description]([Insert the actual link to the PDF])
+* [CS627 Term Project Description](https://docs.google.com/document/d/1FNJsrxCRkVKYdUblwxTYGg2edbPFr4x9lukplNkRwG8/edit?usp=sharing)
 
 ## Notes
 
 * All code is written in Python.
-* Dataset file: `data.csv` (should be in the same directory as the script).
 * For team-specific details, please refer to the report.
