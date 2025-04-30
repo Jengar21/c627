@@ -4,7 +4,7 @@
 
 ## Team Members
 - Lauren DeMaio
-- Rohit Kumaratchi
+- Rohit Sai Gopal Kumaratchi Chandrashekar
 - Jennifer Garcia
 
 ## Project Description
